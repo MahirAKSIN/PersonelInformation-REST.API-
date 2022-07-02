@@ -17,15 +17,13 @@ namespace Personelinformation.Data.Concrete.EfCore
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("server=DESKTOP-LOIGVJB;integrated security=true ; database=InformationApiDB; ");
+            optionsBuilder.UseSqlServer("server=DESKTOP-LOIGVJB;integrated security=true ; database=InformationApiDB;");
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.ApplyConfigurationsFromAssembly(typeof(InformationConfig).Assembly);
-            
-
-            
+                  
         }
 
     }

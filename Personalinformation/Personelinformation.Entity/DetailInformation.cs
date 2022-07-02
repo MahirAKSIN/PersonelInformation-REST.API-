@@ -18,12 +18,7 @@ namespace Personelinformation.Entity
 
         List<Information> Informations { get; set; }
 
-        //public DateTime BirthDate { get; set; }
-
-        //public string Genger { get; set; }
-
-        //public int Age { get; set; }
-
+       
 
 
 
